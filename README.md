@@ -1,4 +1,4 @@
-echo "# AI Code Reviewer (Google Gemini)
+# AI Code Reviewer (Google Gemini)
 
 ## 📌 Project Overview
 AI Code Reviewer is a Python-based application that allows users to submit their Python code for AI-powered analysis. The application reviews the code, identifies potential bugs, suggests improvements, and provides corrected code snippets using Google Gemini AI.

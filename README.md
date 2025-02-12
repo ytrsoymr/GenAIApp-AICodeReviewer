@@ -17,33 +17,33 @@ AI Code Reviewer is a Python-based application that allows users to submit their
 
 ## 🔧 Installation & Setup
 1. **Clone the Repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/AI-Code-Reviewer.git
    cd AI-Code-Reviewer
-   \`\`\`
+   ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
-   \`\`\`bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   \`\`\`
+   ```
 
 3. **Install Dependencies**
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Set Up API Key**
    - Obtain an API key from Google AI (https://ai.google.dev/)
    - Add it to \`config/config.py\`:
-     \`\`\`python
+     ```python
      GOOGLE_API_KEY = \"your_google_api_key\"
-     \`\`\`
+     ```
 
 5. **Run the Application**
-   \`\`\`bash
+   ```bash
    streamlit run app.py
-   \`\`\`
+   ```
 
 ## 📝 Usage
 1. Paste your Python code into the text area.
